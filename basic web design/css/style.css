@@ -23,9 +23,39 @@
     border: 1px solid #000000;
     margin: 0 auto;
 }
-.section{
-    
+.section {
+	display: inline-block;
+	width: 32.9%;
+	border: 1px solid red;
 }
-.section img{
-    width: 27%;
+.section img {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.content {
+	width: 81%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.content h2{
+
+}
+.content p {
+	text-align: justify;
+}.footer{
+    text-align: center;
+	color: #ffff;
+    text-transform: capitalize;
+    background: grey;
+    height: 70px;
+}
+.footer h1 {
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    
 }
